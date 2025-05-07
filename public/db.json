@@ -1,0 +1,61 @@
+{"dog":[
+  {
+    "id": "1",
+    "breed_name": "Golden Retriever",
+    "species": "Dog",
+    "breed_group": "Sporting",
+    "age": 5,
+    "color": "Golden",
+    "life_expectancy": "10-12 years",
+    "temperament": "Friendly, Intelligent, Devoted"
+  },
+  {
+    "id": "2",
+    "breed_name": "Boxer",
+    "species": "Dog",
+    "breed_group": "Working",
+    "age": 4,
+    "color": "Fawn, Brindle, White",
+    "life_expectancy": "10-12 years",
+    "temperament": "Bright, Fun-Loving, Loyal"
+  },
+  {
+    "id": "3",
+    "breed_name": "Border Collie",
+    "species": "Dog",
+    "breed_group": "Herding",
+    "age": 3,
+    "color": "Black and White, Merle, Red",
+    "life_expectancy": "12-15 years",
+    "temperament": "Energetic, Intelligent, Hardworking"
+  },
+  {
+    "id": "4",
+    "breed_name": "Basset Hound",
+    "species": "Dog",
+    "breed_group": "Hound",
+    "age": 6,
+    "color": "Tricolor, Lemon and White",
+    "life_expectancy": "12-13 years",
+    "temperament": "Laid-back, Affectionate, Loyal"
+  },
+  {
+    "id": "5",
+    "breed_name": "Pomeranian",
+    "species": "Dog",
+    "breed_group": "Toy",
+    "age": 2,
+    "color": "Orange, Cream, Black",
+    "life_expectancy": "12-16 years",
+    "temperament": "Lively, Inquisitive, Bold"
+  },
+  {
+    "id": "6",
+    "breed_name": "Shiba Inu",
+    "species": "Dog",
+    "breed_group": "Non-Sporting",
+    "age": 3,
+    "color": "Red, Cream, Sesame",
+    "life_expectancy": "13-16 years",
+    "temperament": "Alert, Confident, Bold"
+  }]}
