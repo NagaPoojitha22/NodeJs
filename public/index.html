@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+                    <!-- Responsive Navigation Menu -->
+        <nav>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links">
+                 <li><a href="/api"> My API</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+            </ul>
+        </nav>
+
+
+        </header>
+
+
+        <!-- Grid Layout -->
+        <main class="grid-container">
+            <section id="name" class="profile">
+                <img src="my_image.png" alt="Profile Picture" class="profile-img">
+                <h1>Naga Poojitha Konda</h1>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quidem odit ipsam dolores nostrum enim quisquam ratione, eos distinctio hic ad ipsa, aliquid ut! Ut asperiores aliquid rerum recusandae nesciunt!</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis commodi omnis labore nemo recusandae asperiores numquam unde? Vel aspernatur non exercitationem officiis blanditiis nihil ex molestiae architecto sunt. Numquam, quos.</p>
+            </section>
+
+            <section id="experience" class="experience">
+                <h2>Experience</h2>
+                <img src="my_image.png" alt="Profile Picture" class="experience img">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, est. Beatae vel ducimus molestias quaerat accusantium iste earum voluptates labore, ullam autem repudiandae pariatur dolorum quae impedit dolor reprehenderit ex?</p>
+            </section>
+
+            <section id="education" class="education">
+                <h2>Education</h2>
+                <img src="my_image.png"  class="education img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <img src="my_image.png" class="education img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                
+                <div class="project-item">
+                    <img src="my_image.png" alt="Project 1">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ipsum consequatur nam laborum cum. Quasi eveniet dolorem ea nihil quisquam ex ratione, ducimus omnis amet, nemo nobis modi at molestiae?</p>
+                </div>
+                
+                <div class="project-item">
+                    <img src="my_image.png" alt="Project 2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus facilis perspiciatis officia dicta recusandae voluptatibus eius maxime, animi illum architecto quisquam sapiente tempore ad iste molestiae explicabo id ut.</p>
+                </div>
+                
+                <div class="project-item">
+                    <img src="my_image.png" alt="Project 3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maiores eos odio. Officia dicta facilis dignissimos nesciunt alias qui totam architecto quos eligendi iure eum eaque, veniam magni aliquam harum.</p>
+                </div>
+            </section>
+            
+
+            <section id="blogs">
+                <h2>Blogs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maxime similique iste quam, adipisci eligendi dignissimos neque. Quis quos necessitatibus consequatur obcaecati iste dicta eaque, perferendis labore, modi iusto explicabo!</p>
+            </section>
+
+            <section id="certifications" class="certification">
+                <h2>Certifications</h2>
+                <img src="my_image.png" class="certification img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tenetur blanditiis obcaecati eaque, quae consequatur beatae a, quos veniam quo unde praesentium, saepe rem ab numquam excepturi architecto necessitatibus sequi?</p>
+            </section>
+
+            <section id="achievements" class="achievements">
+                <h2>Achievements</h2>
+                <img src="my_image.png" class="achievements img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, iure. Adipisci ex quam nihil ipsa aliquid! Fugiat, debitis consequatur ducimus dignissimos sunt amet nostrum sed assumenda ullam beatae eaque eius!</p>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <a href="mailto:abcdefghi@example.com">Email</a>
+            <a href="https://twitter.com" >Twitter</a>
+            <a href="https://www.linkedin.com" >LinkedIn</a>
+            <a href="https://github.com" >GitHub</a>
+        </footer>
+    </div>
+</body>
+
+
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-size: 30px;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+nav {
+    width: 100%;
+    background: #333;
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    position: relative;
+}
+
+/* Hide Menu Icon by Default */
+.menu-toggle {
+    font-size: 24px;
+    color: white;
+    display: none;  
+}
+
+/* Navigation Links */
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    margin: 0;
+}
+
+/* Navigation Links Styling */
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 1.5vh 2vw;
+    display: block;
+}
+/* Global Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1vw;
+    padding: 1vh;
+}
+/* Profile Section */
+.profile {
+    text-align: center;
+}
+.profile-img {
+    width: 15vw;
+    height: 12vw;
+    border-radius: 50%;
+}
+/* Row 1 */
+#name {
+     background-color: #FFD700; 
+}
+
+#about {
+        background-color: #FFA07A; 
+}
+
+#skills {
+     background-color: #87CEEB; 
+}
+/* Experience Section */
+#experience {
+    background-color: #32CD32; /* Lime Green */
+    padding: 1vh;
+    grid-column: 1 / 3; 
+    grid-row: 2; 
+    display: grid;
+    grid-template-columns: 15vw 1fr; 
+    gap: 1vw;
+}
+#experience h2 {
+    grid-column: span 2; 
+    text-align: center;
+}
+/* Experience Image */
+.experience img {
+    width: 15vw;
+    height: 20vh;
+}
+
+/* Experience Text */
+.experience p {
+    font-size: 1vw;
+    text-align: left;  
+}
+/* Education Section */
+#education {
+    background-color: #e4af4d; /* Tomato */
+    display: grid;
+    gap: 1vw;
+    padding: 1vh;
+    grid-template-columns: 10vw 1fr; 
+    align-items: center;
+}
+/* Education Heading */
+#education h2 {
+    grid-column: span 2;    
+}
+
+/* Each Education Entry */
+.education-entry {
+    display: grid;
+    grid-template-columns: 10vw 1fr; 
+    gap: 1vw;
+    align-items: center;
+}
+
+/* Education Image */
+.education img {
+    width: 10vw;
+    height: 15vh;
+}
+
+/* Education Text */
+.education p {
+    text-align: left;
+}
+#projects {
+    grid-column: 1 / 4; 
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2vw;
+    background-color: #79be8e;
+    padding: 2vw;
+    text-align: center;
+}
+
+#projects h2{
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+/* Project Items */
+.project-item {
+    display: grid;
+    grid-template-rows: auto auto; 
+    gap: 1vh;
+    padding: 1vw;
+    text-align: center;
+}
+
+/* Project Images */
+.project-item img {
+    width: 100%;
+    max-width: 20vw; 
+    margin-left: 1vw;
+}
+
+/* Project Text */
+.project-item p {
+    font-size: 1.2vw;
+    padding: 1vh;
+}
+/* Row 4: Blogs, Certifications, Achievements */
+#blogs {
+    grid-column: 1;
+    background-color: #e5ae99; /* Orange Red */
+}
+
+#certifications {
+    grid-column: 2;
+    background-color: #20B2AA; /* Light Sea Green */
+}
+.certification img{
+    width: 20vw;
+    height: 30vh;
+}
+
+#achievements {
+    grid-column: 3;
+    background-color: #73aacf; /* Blue Violet */
+}
+.achievements img{
+    width: 20vw;
+    height: 30vh;  
+}
+
+/* Section Styling */
+section {
+    background: white;
+    padding: 2vw;
+    border-radius: 8px;
+    box-shadow: 0 2px 1vh rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 1.5vh 0;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+footer a {
+    color: white;
+    width: 10%;
+    text-decoration: none;
+    padding: 0.5vh 2vw;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design for Screens < 500px */
+@media screen and (max-width: 500px) {
+    .menu-toggle {
+        display: block; /* Show hamburger icon */
+    }
+
+    .nav-links {
+        display: none;
+        grid-template-columns: 1fr;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background: #333;
+        text-align: center;
+        padding: 1vh 0;
+    }
+
+    .nav-links li {
+        display: block;
+        padding: 1vh 0;
+    }
+
+    .nav-links.show {
+        display: grid; /* Show menu when toggled */
+    }
+
+    /* Force Single Column Layout for Mobile */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 2vh; 
+    }
+
+    /* Profile Section */
+    #name, #about, #skills,
+    #experience, #education, #projects,
+    #blogs, #certifications, #achievements {
+        grid-column: 1 / -1;
+    }
+
+    .profile-img, .experience img, .education img, .certification img, .achievements img { width: 60%; height: auto; display: block; margin: auto; }
+
+
+    /* Experience & Education Sections */
+    #experience, #education {
+        grid-template-columns: 1fr; 
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #projects {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2vh; 
+        text-align: center;
+    }
+
+
+    .project-item img {
+        width: 80%;
+        display: block;
+    }
+
+    .project-item p {
+        font-size: 3.5vw;
+        margin-top: 1vh; 
+    }
+}
+</style>
+
+<script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('show');
+    }
+  </script>
+</html>
